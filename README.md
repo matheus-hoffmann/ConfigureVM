@@ -1,21 +1,16 @@
 # Configure Linux Virtual Machine
 
-After download the files, make sure they are available to execute. Run the command:
-```bash
-chmod +x config_linux config_python config_mltools
-```
-
 ## Install Basic Linux Configurations
 ```bash
-./config_linux
+bash config_linux.sh
 ```
 
 ## Install Python and Usefull Packages
 ```bash
-./config_python
+bash config_python.sh
 ```
 
 ## Install Machine Learning Tools
 ```bash
-./config_mltools
+bash config_mltools.sh
 ```
